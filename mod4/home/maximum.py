@@ -1,11 +1,8 @@
 a = int(input('Введите первое число: '))
-
 b = int(input('Введите второе число: '))
+c = int(input('Введите третье число: '))
 
-print(a, b)
+x = max(a, b, c)
 
-a = a + b
-b = a - b
-a = a - b
+print(x)
 
-print(a, b)
